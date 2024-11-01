@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" class="comment">
+<head>
+    <meta charset="utf-8">
+    <title>推薦電影 | 天臺的幽靈</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="omg.js"></script>
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+</head>
+
+<body>
+    <header>
+        <!--照片-->
+        <div class="slideshow">
+            <div class="slide-item fades">
+                <img src="img/header01.png" alt="Image 1">
+            </div>
+            <div class="slide-item fades">
+                <img src="img/header02.png" alt="Image 2">
+            </div>
+            <div class="slide-item fades">
+                <img src="img/header03.png" alt="Image 3">
+            </div>
+
+            <!-- 手動切換的按鈕 -->
+            <a id="prev" class="slide-arraw-prev arraw-prev"> ❮ </a>
+            <a id="next" class="slide-arraw-next arraw-next"> ❯ </a>
+
+            <div class="slide-dot">
+                <div class="dot" data-value="1"></div>
+                <div class="dot" data-value="2"></div>
+                <div class="dot" data-value="3"></div>
+            </div>
+        </div>
+    </header>
+    <!--導覽列-->
+    <nav class="nav">
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">天臺的幽靈 | 首頁</a>
+            </li>
+            <li class="nav-item">
+                <a href="process.html" class="nav-link">關於電影</a>
+            </li>
+            <li class="nav-item">
+                <a href="staff.html" class="nav-link">製作團隊</a>
+            </li>
+            <li class="nav-item">
+                <a href="comment.html" class="nav-link">推薦電影</a>
+            </li>
+        </ul>
+    </nav>
+
+    <article class="process-article">
+        <div class="ossummenomovie scroll-reveal">
+            <div class="ossummenomovie-left">
+                <div class="movie-article-left">
+                    <h3 class="movie-title-left">2016</h3>
+                    <h2 style="text-align: center;">電影版 聲之形</h2>
+                    <p class="movie-rem-left">映画 聲の形</p>
+                </div>
+                <div class="movie effect">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/LN76eTHwy8w?si=M952PVnqK2ux3gdB" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                    gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        
+                </div>
+            </div>
+            <div class="ossummenomovie-right">
+                <div class="movie-article-right">
+                    <h3 class="movie-title-right">2022</h3>
+                    <h2 style="text-align: center;">鏡之孤城</h2>
+                    <p class="movie-rem-right">かがみの孤城</p>
+                </div>
+                <div class="movie effect">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/rsKXExsmB3A?si=GADjo3N5pEYlXqRu" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                    gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        
+                </div>
+            </div>
+        </div>
+    </article>
+    
+    <footer class="footer">
+        <p class="footer-text">© Copyrights 2024 前端網站設計課 / Design by En Ling Liu & Ya Die Shi</p>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        // 初始化 ScrollReveal
+        ScrollReveal().reveal('.scroll-reveal', {
+            distance: '50px', // 元素移動的距離
+            origin: 'bottom', // 從底部進入
+            opacity: 0, // 初始透明度
+            duration: 1000, // 動畫持續時間
+            viewFactor: 0.2, // 滾動到可見的比例
+            easing: 'ease-in-out' // 動畫效果
+        });
+    </script>
+</body>
+</html>

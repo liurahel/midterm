@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" class="index">
+<head>
+    <meta charset="utf-8">
+    <title>首頁 | 天臺的幽靈</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+</head>
+
+<body>
+    <header>
+        <!--照片-->
+        <div class="header-img-index">
+            <div class="header-text">
+                <h1 class="index-img-title">天臺的<br>幽靈</h1>
+            </div>
+            <h2 class="index-img-text">明明你也是假的......</h2>
+        </div>
+    </header>
+
+    <!--導覽列-->
+    <nav class="nav">
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">天臺的幽靈 | 首頁</a>
+            </li>
+            <li class="nav-item">
+                <a href="process.html" class="nav-link">關於電影</a>
+            </li>
+            <li class="nav-item">
+                <a href="staff.html" class="nav-link">製作團隊</a>
+            </li>
+            <li class="nav-item">
+                <a href="comment.html" class="nav-link">推薦電影</a>
+            </li>
+        </ul>
+    </nav>
+
+    <article>
+        <!--劇情大綱-->
+        <div class="start-article scroll-reveal">
+            <h3 class="start-article-title">STORY</h3>
+            <p class="rem">海茵懷抱著期待進入高中，原本開心的上學時光，
+                <br>卻因為被同班同學姿齡霸凌而開始變了調。
+                <br>某天偶然邂逅了少女阿暖，兩人從陌生到互相敞開心扉，
+                <br>阿暖成為海茵唯一的慰藉，默默守護著她。
+                <br>然而，隨著相處加深，海茵發現阿暖的存在似乎隱藏著不為人知的故事，
+                <br>漸漸將她引向那段塵封的過去......
+            </p>
+        </div>
+        <!--Youtube-->
+        <div class="start-article scroll-reveal">
+            <h3 class="start-article-title">SHORT FILM</h3>
+            <div class="movie effect">
+                <iframe
+                src="https://www.youtube.com/embed/zbwjyoVgLls?si=wNPuZKhKPZW3HOaR" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; 
+                autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
+                web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+        <!--主題曲-->
+        <div class="start-article scroll-reveal">
+            <h3 class="start-article-title">THEME SONG</h3>
+            <h2 class="song">負けるな、わたし</h2>
+            <p class="rem">otsumami feat.mikan</p>
+        </div>
+        <!--製作團隊-->
+        <div class="start-article scroll-reveal">
+            <h3 class="start-article-title">STAFF</h3>
+            <div class="start-article-list">
+                <div class="start-article-item">
+                    <p>拍攝&剪輯</p>
+                    <h3>吳函蓁</h3>
+                </div>
+                <div class="start-article-item">
+                    <p>花絮剪輯&器材提供</p>
+                    <h3>劉恩伶</h3>
+                </div>
+                <div class="start-article-item">
+                    <p>動畫</p>
+                    <h3>施亞蝶</h3>
+                </div>
+                <div class="start-article-item">
+                    <p>動畫</p>
+                    <h3>廖翊君</h3>
+                </div>
+            </div>
+        </div>
+    </article>
+    
+    <!--尾-->
+    <footer class="footer">
+        <p class="footer-text">© Copyrights 2024 前端網站設計課 / Design by En Ling Liu & Ya Die Shi</p>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        // 初始化 ScrollReveal
+        ScrollReveal().reveal('.scroll-reveal', {
+            distance: '50px', // 元素移動的距離
+            origin: 'bottom', // 從底部進入
+            opacity: 0, // 初始透明度
+            duration: 1000, // 動畫持續時間
+            viewFactor: 0.2, // 滾動到可見的比例
+            easing: 'ease-in-out' // 動畫效果
+        });
+    </script>
+</body>
+</html>

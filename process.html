@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" class="process">
+<head>
+    <meta charset="utf-8">
+    <title>關於電影 | 天臺的幽靈</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="omg.js"></script>
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+</head>
+
+<body>
+    <header>
+        <!--照片-->
+        <div class="slideshow">
+            <div class="slide-item fades">
+                <img src="img/header01.png" alt="Image 1">
+            </div>
+            <div class="slide-item fades">
+                <img src="img/header02.png" alt="Image 2">
+            </div>
+            <div class="slide-item fades">
+                <img src="img/header03.png" alt="Image 3">
+            </div>
+
+            <!-- 手動切換的按鈕 -->
+            <a id="prev" class="slide-arraw-prev arraw-prev"> ❮ </a>
+            <a id="next" class="slide-arraw-next arraw-next"> ❯ </a>
+
+            <div class="slide-dot">
+                <div class="dot" data-value="1"></div>
+                <div class="dot" data-value="2"></div>
+                <div class="dot" data-value="3"></div>
+            </div>
+        </div>
+    </header>
+    <!--導覽列-->
+    <nav class="nav">
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">天臺的幽靈 | 首頁</a>
+            </li>
+            <li class="nav-item">
+                <a href="process.html" class="nav-link">關於電影</a>
+            </li>
+            <li class="nav-item">
+                <a href="staff.html" class="nav-link">製作團隊</a>
+            </li>
+            <li class="nav-item">
+                <a href="comment.html" class="nav-link">推薦電影</a>
+            </li>
+        </ul>
+    </nav>
+
+    <article class="process-article">
+        <!--劇情簡介-->
+        <div class="scroll-reveal">
+            <h2 class="article-title">劇情簡介</h2>
+            <p class="article-text">高中新生海茵在學校遭到同儕的排擠與霸凌，內心愈發絕望，
+                幸得偶然遇見的少女阿暖默默守護與陪伴在身旁。然而，阿暖其實是一名因過往創傷無法安息的靈魂。
+                隨著兩人互相敞開心扉，海茵重拾勇氣，並在阿暖的幫助下，將霸凌事件公之於眾。
+                最終，阿暖也釋放了長久的執念，得以安然離去。多年後，成為輔導老師的海茵回到舊地，
+                藉相機照片緬懷阿暖，並將這段過往轉化為溫柔的力量，去幫助更多迷途的學生。</p>
+        </div>
+        <!--登場角色-->
+        <div class="scroll-reveal">
+            <h2 class="article-title">登場角色</h2>
+            <div class="grid-character">
+                <div class="flex-character staggered" style="--delay: 0s;">
+                    <div class="pics">
+                        <img src="img/螢幕擷取畫面 2024-10-31 221317.png" alt="林海茵" class="char-pic">
+                        <img src="img/311751.jpg" alt="林海茵" class="char-pic" style="z-index: -1">
+                    </div>
+                    <div class="character">
+                        <h3 class="char-name">林海茵 / 女主角</h3>
+                        <p class="char-text2">演員：劉恩伶</p>
+                        <p class="char-text">高一新生，性格內向善良，剛開學便交到了新朋友，卻在班上遭遇霸凌，經歷孤獨與掙扎。</p>
+                    </div>
+                </div>
+                <div class="flex-character staggered" style="--delay: 0.2s;">
+                    <div class="pics">
+                        <img src="img/螢幕擷取畫面 2024-10-31 221112.png" alt="施亞蝶" class="char-pic">
+                        <img src="img/311966.jpg" alt="施亞蝶" class="char-pic">
+                    </div>
+                    <div class="character">
+                        <h3 class="char-name">宋暖 / 幽靈</h3>
+                        <p class="char-text2">演員：施亞蝶</p>
+                        <p class="char-text">曾是海茵的前輩，性格關心他人，因過去的悲劇而化為幽靈，努力幫助海茵度過困境，並與她建立連結。</p>
+                    </div>
+                </div>
+                <div class="flex-character staggered" style="--delay: 0.4s;">
+                    <div class="pics">
+                        <img src="img/螢幕擷取畫面 2024-10-31 221043.png" alt="廖翊君" class="char-pic">
+                        <img src="img/311756.jpg" alt="廖翊君" class="char-pic">
+                    </div>
+                    <div class="character">
+                        <h3 class="char-name">陳姿齡 / 反派</h3>
+                        <p class="char-text2">演員：廖翊君</p>
+                        <p class="char-text">海茵的同班同學，外向且善於操控社交，因為嫉妒而成為海茵的霸凌者，企圖用言語和行動攻擊海茵。</p>
+                    </div>
+                </div>
+                <div class="flex-character staggered" style="--delay: 0.6s;">
+                    <div class="pics">
+                        <img src="img/螢幕擷取畫面 2024-10-31 220842.png" alt="謝芷禹" class="char-pic">
+                        <img src="img/螢幕擷取畫面 2024-11-01 033747.png" alt="謝芷禹" class="char-pic">
+                    </div>
+                    <div class="character">
+                        <h3 class="char-name">海茵媽媽 / 配角</h3>
+                        <p class="char-text2">演員：謝芷瑀</p>
+                        <p class="char-text">對海茵十分關心，想讓她在新環境中適應良好，卻因工作繁忙無法陪伴女兒，情感上有些疏離。</p>
+                    </div>
+                </div>
+                <div class="flex-character staggered" style="--delay: 0.8s;">
+                    <div class="pics">
+                        <img src="img/螢幕擷取畫面 2024-10-31 221146.png" alt="謝宏碩" class="char-pic">
+                        <img src="img/311750.jpg" alt="謝宏碩" class="char-pic">
+                    </div>
+                    <div class="character">
+                        <h3 class="char-name">老師 / 配角</h3>
+                        <p class="char-text2">演員：謝宏碩</p>
+                        <p class="char-text">海茵的班主任，對學生的情況有所關心，但面對霸凌事件時受到學校政策的限制，無法及時提供幫助。</p>
+                    </div>
+                </div>
+                <div class="flex-character staggered" style="--delay: 1s;">
+                    <div class="pics">
+                        <img src="img/螢幕擷取畫面 2024-10-31 221226.png" alt="臨時演員" class="char-pic">
+                        <img src="img/311752.jpg" alt="臨時演員" class="char-pic">
+                    </div>
+                    <div class="character">
+                        <h3 class="char-name">朋友 / 配角</h3>
+                        <p class="char-text2">演員：臨時演員</p>
+                        <p class="char-text">海茵的同學，與姿齡交好，時常參與其對海茵的霸凌行為，有時會協助姿齡，展現出群體中的服從與從眾。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+        <!--經典劇照-->
+        <div class="scroll-reveal">
+            <h2 class="article-title2">經典劇照</h2>
+            <div class="bg-container"></div>
+            <div class="grid-container">
+                <img class="container-img" src="img/311753.jpg" alt="劇照1">
+                <img class="container-img" src="img/311750.jpg" alt="劇照2">
+                <img class="container-img" src="img/311751.jpg" alt="劇照3">
+                <img class="container-img" src="img/311752.jpg" alt="劇照4">
+                <img class="container-img" src="img/311749.jpg" alt="劇照5">
+                <img class="container-img" src="img/311755.jpg" alt="劇照6">
+                <img class="container-img" src="img/311756.jpg" alt="劇照7">
+                <img class="container-img" src="img/311757.jpg" alt="劇照8">
+            </div>
+        </div>
+    <article class="process-article">
+        <!--幕後花絮&電影配樂-->
+        <div class="scroll-reveal">
+            <div class="flex-article">
+                <h2 class="article-title3">幕後花絮</h2>
+                <h2 class="article-title3">電影配樂</h2>
+            </div>
+            <div class="flex-article">
+                <iframe class="process-movie" src="https://www.youtube.com/embed/EO6AHWp_0_A?si=wRdvIjrQ5AouMGWJ" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen></iframe>
+                <iframe class="process-movie" src="https://www.youtube.com/embed/-3xNdP_QYbw?si=HO7b9NaeCgf69eAH" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen></iframe>
+            </div>
+        </div>
+    </article>
+    
+    <footer class="footer">
+        <p class="footer-text">© Copyrights 2024 前端網站設計課 / Design by En Ling Liu & Ya Die Shi</p>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        // 初始化 ScrollReveal
+        ScrollReveal().reveal('.scroll-reveal', {
+            distance: '50px', // 元素移動的距離
+            origin: 'bottom', // 從底部進入
+            opacity: 0, // 初始透明度
+            duration: 1000, // 動畫持續時間
+            viewFactor: 0.2, // 滾動到可見的比例
+            easing: 'ease-in-out' // 動畫效果
+        });
+    </script>
+</body>
+</html>
